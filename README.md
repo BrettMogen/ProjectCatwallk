@@ -2,6 +2,17 @@
 
 The purpose of this project was to rebuild an outdated client-facing retail web-portal. Team SamWise was hired by the original website owners to do a complete overhaul of both the front-end and server side code over the course of 2-3 weeks.
 
+## Sections View
+
+### Overview
+![](/images/Overview.jpeg)
+
+### Questions and Answers
+![](/images/QuestionsandAnswers.jpeg)
+
+### Ratings and Reviews
+![](/images/RatingsandReviews.jpeg)
+
 ## Getting Started
 ### Prerequisites
 
@@ -30,7 +41,13 @@ Next, create a file titled **'config.js'** in the main directory. Inside this fi
     
 Next, you will need to create your own Personal Access Token. To do this, navigate [**here**](https://github.com/settings/tokens).
 Click the button labled **Generate new token**.
+
+![](/images/GenerateTokenStep1.jpeg)
+
 Give the Token a Description ("Project Catwalk", or whatever is most descriptive to you).
+
+![](/images/GenerateTokenStep2.jpeg)
+
 Under Select Scopes, select the following:
 - read:org
 - user
@@ -38,9 +55,16 @@ Under Select Scopes, select the following:
 - user:email
 - user:follow
 
+![](/images/GenerateTokenStep3.jpeg)
+
 Click the **Generate Token** button, found towards the botton of the page.
-Once your **Personal Access Token** has been created, replace the YOUR_TOKEN_HERE text within the object contained in your **config.js** file.
+
+![](/images/GenerateTokenStep4.jpeg)
+
+Once your **Personal Access Token** has been created, copy it and replace the YOUR_TOKEN_HERE text within the object contained in your **config.js** file.
 Save this file.
+
+![](/images/GenerateTokenStep5.jpeg)
     
 Next, run the following command to run webpack and transpile the .jsx code:
     
