@@ -17,7 +17,7 @@ let config = {
 }
 
 app.get('/products', (req, res) => {
-  Axios.get(URL + '/products', config).then((response) => {res.send(response.data)});
+  Axios.get(URL + '/products', config).then((response) => {res.send(response.data)}).catch((error) => { console.log('Error: ', error, 'There was an error while making a get request to /products.') });
 });
 
 app.get('/*', (req, res) => {
